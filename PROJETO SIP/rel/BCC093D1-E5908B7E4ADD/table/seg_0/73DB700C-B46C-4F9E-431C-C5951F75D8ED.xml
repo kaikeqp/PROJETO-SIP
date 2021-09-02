@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="73DB700C-B46C-4F9E-431C-C5951F75D8ED" name="T_SIP_FUNCIONARIO">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-19 14:28:31 UTC</createdTime>
+<generatorID>F9E7F59D-3C0B-2D9F-8D89-8625ECA429F7</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_matricula" id="4D997F85-4172-AD36-46C5-2BD4E16B4AA4">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-19 14:28:31 UTC</createdTime>
+<generatorID>4B6AD43C-F879-82E8-FE37-43A0534123CE</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_funcionario" id="6584B058-2768-1E75-B17C-AC1F22B847A5">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-19 14:28:31 UTC</createdTime>
+<generatorID>56457A15-22B0-10CD-7EC2-674E6CD66F2F</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="AB8FDC09-F140-E084-94EE-13A7BE015904">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-19 14:28:31 UTC</createdTime>
+<generatorID>FAECF023-893F-2C39-E5FB-78B7A78F0A55</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_admissao" id="4CEA6A6F-8362-4D93-905A-50C24B529030">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-19 14:28:31 UTC</createdTime>
+<generatorID>97FF03B2-C555-02CD-778E-7B4180628FB6</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_endereco" id="0A2156EF-1F8D-09A1-F862-C66E6EB8A550">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-19 14:28:31 UTC</createdTime>
+<generatorID>6B70A29F-C37E-4BE0-6AEC-31B3970130CB</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_salario" id="37CAE43F-83A5-68CA-4AC2-A868A0F5E783">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-19 14:28:31 UTC</createdTime>
+<generatorID>C4118A04-8501-D820-E311-18CE5B48E7DF</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_depto" id="C289794B-E676-8357-244E-B1A2D44A9DE3">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-19 14:28:31 UTC</createdTime>
+<generatorID>A0440A4A-2298-B2E1-D35B-B107CFD7C43E</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9508F2FE-1EA1-0D50-E5CE-44AEFD654BB6" referredColumn="94C039B0-A397-1F0B-28D3-DB6CED7819CC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="36864A5C-6296-970D-5CE9-110A7E1B4653" name="PK_SIP_FUNCIONARIO">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-19 14:28:31 UTC</createdTime>
+<generatorID>C43CD68B-1495-019C-A4AE-177695CE874D</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D997F85-4172-AD36-46C5-2BD4E16B4AA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E48F0DD4-9910-52BF-F748-08CFD93308BC" name="FK_SIP_FUNCIONARIO_DEPTO">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-19 14:28:31 UTC</createdTime>
+<generatorID>2CF8EE7C-90E2-9D3C-2660-3C7DD50762D3</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C289794B-E676-8357-244E-B1A2D44A9DE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_SIP_FUNCIONARIO_SALARIO" directorySegmentName="seg_0" id="69AA23B2-48EC-A994-0E23-3A7CE3855373">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-26 13:21:07 UTC</createdTime>
+<comment><![CDATA[Todos os funcionários possuem um salário acima ou igual ao salário mínimo (Em 2021, R$ 1.100,00). O maior salário atualmente é de R$ 18.000,00]]></comment>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<rule><![CDATA[VL_SALARIO >=1100]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

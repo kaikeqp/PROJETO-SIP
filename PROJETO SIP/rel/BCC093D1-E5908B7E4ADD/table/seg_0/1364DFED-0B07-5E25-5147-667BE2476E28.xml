@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1364DFED-0B07-5E25-5147-667BE2476E28" name="T_SIP_DEPTO">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-19 14:28:31 UTC</createdTime>
+<generatorID>C3006937-ED24-9123-5B40-385B406C02D5</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_depto" id="94C039B0-A397-1F0B-28D3-DB6CED7819CC">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-19 14:28:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[UID PRIMARIO = IDENTIFICADOR UNICO PRIMARIO = CHAVE PRIMARIA]]></commentInRDBMS>
+<generatorID>649268FE-D8C3-C3D9-EC92-8E4E4B55D5C2</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_depto" id="771AD2ED-7547-F816-4F4B-B37C29C90265">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-19 14:28:31 UTC</createdTime>
+<generatorID>9F0CA55A-481C-EFD4-A635-4712F2F69E3F</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sg_depto" id="83FB3204-C4A7-2762-03C0-D6395524550A">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-19 14:28:31 UTC</createdTime>
+<generatorID>02E1A53A-8637-98CA-41FB-E3A5BACA96A8</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60775136-89E9-0AFD-9289-6E40B2A70B25" name="PK_SIP_DEPTO">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-19 14:28:31 UTC</createdTime>
+<generatorID>A9F97497-43B3-20E7-81C6-30C06E27789F</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94C039B0-A397-1F0B-28D3-DB6CED7819CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E767C7A-D8B9-1D5C-8D64-25D17A9E7E82" name="UN_SIP_DEPTO_NOME">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-19 14:55:26 UTC</createdTime>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="771AD2ED-7547-F816-4F4B-B37C29C90265"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

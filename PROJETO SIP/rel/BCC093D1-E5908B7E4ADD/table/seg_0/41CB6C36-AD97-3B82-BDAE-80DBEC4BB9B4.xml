@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="41CB6C36-AD97-3B82-BDAE-80DBEC4BB9B4" name="T_SIP_DEPENDENTE">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-19 14:28:31 UTC</createdTime>
+<generatorID>29445DF5-6C0A-384D-3855-4931CA51A808</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_dependente" id="D0C79FC3-DCCC-5B15-70CC-C7BCFB157FE3">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-19 14:28:31 UTC</createdTime>
+<generatorID>979EBBA3-DA84-A52F-2A45-C58F23C3AC93</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_dependente" id="134EF2CD-A38B-84EF-89A8-C4C284D77A87">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-19 14:28:31 UTC</createdTime>
+<generatorID>BEE13F14-11BD-B82A-560E-D0A59820720A</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="982FB56A-CD30-B717-8E11-DE356A309FC9">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-19 14:28:31 UTC</createdTime>
+<generatorID>4677E4E4-1BC1-32BD-6514-06D5CA058B1F</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_matricula" id="DC91E0AB-2B0D-C4EB-68B7-0916CF7A2C3E">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-19 14:28:31 UTC</createdTime>
+<generatorID>FC488067-DA11-D4D4-6B29-652DCA52D983</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83FF4B0B-AB42-B14A-3ED6-953E6829EE58" referredColumn="4D997F85-4172-AD36-46C5-2BD4E16B4AA4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F4F91B4-6167-4E89-B788-7123B730FD0D" name="PK_SIP_DEPENDENTE">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-19 14:28:31 UTC</createdTime>
+<generatorID>F40E73BE-354F-0586-4435-1E84475F2A7D</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC91E0AB-2B0D-C4EB-68B7-0916CF7A2C3E"/>
+<colUsage columnID="D0C79FC3-DCCC-5B15-70CC-C7BCFB157FE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3FD0C58-8964-E2BE-58CA-3B20B01777FA" name="FK_SIP_DEPENDENTE_FUNCIONARIO">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-19 14:28:31 UTC</createdTime>
+<generatorID>2DE90B02-578F-BBF5-CA44-8FC68D4A130F</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC91E0AB-2B0D-C4EB-68B7-0916CF7A2C3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

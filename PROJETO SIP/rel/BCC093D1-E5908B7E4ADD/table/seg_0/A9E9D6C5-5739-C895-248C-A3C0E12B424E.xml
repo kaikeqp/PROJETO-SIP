@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9E9D6C5-5739-C895-248C-A3C0E12B424E" name="T_SIP_PROJETO">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-19 14:28:31 UTC</createdTime>
+<generatorID>D369CF5D-20B9-5BE6-AA12-290BB367222D</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_projeto" id="F4D1B299-5853-EBC2-7CA2-3893881D139D">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-19 14:28:31 UTC</createdTime>
+<generatorID>E6478578-FCC8-84BA-96DA-654A8E455F64</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_projeto" id="A8E83C5F-B2A6-C29F-5B5C-7EA4BD980115">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-19 14:28:31 UTC</createdTime>
+<generatorID>993CBD30-87C3-827D-1D46-956C8467E411</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_inicio" id="C781D615-952D-F3BF-95FF-22B4D43150E3">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-19 14:28:31 UTC</createdTime>
+<generatorID>EB5817A5-1129-B5E8-FB8B-C92649476D1F</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_termino" id="0266A724-A641-DAB3-6DD0-DE22EA2F5F5E">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-19 14:28:31 UTC</createdTime>
+<generatorID>C359E822-0119-14E4-34C8-B3F414FB8D36</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9532765E-DA9A-C87B-AADD-1F7D47F4808C" name="PK_SIP_PROJETO">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-19 14:28:31 UTC</createdTime>
+<generatorID>8A5DBA65-AB84-F37C-AE9B-3903280DFEBF</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4D1B299-5853-EBC2-7CA2-3893881D139D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF7FD207-0F6E-E20D-921B-C08696892E95" name="UN_SIP_PROJETO_NOME">
+<createdBy>kaike</createdBy>
+<createdTime>2021-09-02 13:32:13 UTC</createdTime>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8E83C5F-B2A6-C29F-5B5C-7EA4BD980115"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_SIP_PROJETO_DATA" directorySegmentName="seg_0" id="84044DD1-8775-2EF8-82EE-E92CC76518F5">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-26 13:19:41 UTC</createdTime>
+<comment><![CDATA[A data de término de um projeto deve ser maior que a data de início de um projeto.]]></comment>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<rule><![CDATA[DT_TERMINO>DT_INICIO]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

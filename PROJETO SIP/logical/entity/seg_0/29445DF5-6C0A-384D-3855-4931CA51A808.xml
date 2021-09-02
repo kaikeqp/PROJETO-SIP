@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="29445DF5-6C0A-384D-3855-4931CA51A808" name="T_SIP_DEPENDENTE">
+<createdBy>kaike</createdBy>
+<createdTime>2021-04-22 13:56:29 UTC</createdTime>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="BCC093D1-24B4-F63B-30E5-E5908B7E4ADD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_dependente" id="979EBBA3-DA84-A52F-2A45-C58F23C3AC93">
+<createdBy>kaike</createdBy>
+<createdTime>2021-04-22 13:56:54 UTC</createdTime>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="BCC093D1-24B4-F63B-30E5-E5908B7E4ADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="4677E4E4-1BC1-32BD-6514-06D5CA058B1F">
+<createdBy>kaike</createdBy>
+<createdTime>2021-04-22 13:57:30 UTC</createdTime>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="BCC093D1-24B4-F63B-30E5-E5908B7E4ADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_dependente" id="BEE13F14-11BD-B82A-560E-D0A59820720A">
+<createdBy>kaike</createdBy>
+<createdTime>2021-04-22 13:57:15 UTC</createdTime>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="BCC093D1-24B4-F63B-30E5-E5908B7E4ADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_matricula" id="FC488067-DA11-D4D4-6B29-652DCA52D983">
+<createdBy>kaike</createdBy>
+<createdTime>2021-08-05 14:29:47 UTC</createdTime>
+<generatorID>2DE90B02-578F-BBF5-CA44-8FC68D4A130F</generatorID>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="BCC093D1-24B4-F63B-30E5-E5908B7E4ADD" value="true"/>
+</engineerTo>
+<referedAttribute>4B6AD43C-F879-82E8-FE37-43A0534123CE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F40E73BE-354F-0586-4435-1E84475F2A7D" name="T_SIP_DEPENDENTE PK">
+<createdBy>kaike</createdBy>
+<createdTime>2021-04-22 13:57:11 UTC</createdTime>
+<ownerDesignName>PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="BCC093D1-24B4-F63B-30E5-E5908B7E4ADD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>979EBBA3-DA84-A52F-2A45-C58F23C3AC93</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
